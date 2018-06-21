@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CartPage {
 
 	public CartPage(WebDriver driver) {
-		PageFactory.initElements(driver, this);
+		    PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(how = How.CSS, using = ".cart-button") 
