@@ -15,7 +15,7 @@ public class CheckoutPage {
 	    PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(how = How.CSS, using = "#billing_first_name") 
+	@FindBy(how = How.ID, using = "#billing_first_name") 
 	private WebElement txtbx_FirstName;
 	
 	@FindBy(how = How.CSS, using = "#billing_last_name") 
